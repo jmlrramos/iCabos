@@ -263,7 +263,7 @@ with st.sidebar:
     if bt:
         st.selectbox("Proteção", ["disj", "fus", "none"],
                      format_func=lambda k: {"disj": "Disjuntor (I2 = 1,45 In)", "fus": "Fusível gG / gPV (I2 = 1,6 In)", "none": "Sem verificação"}[k], key="prot")
-    st.markdown('<div class="side-sign">Criado por <b>Jorge Ramos aka Noobcybot</b> · uso privado<br>Tecneira – Tecnologias Energéticas, S.A.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="side-sign">Criado por <b>Jorge Ramos aka "Noobcybot"</b> · uso privado<br>Tecneira – Tecnologias Energéticas, S.A.</div>', unsafe_allow_html=True)
 
 
 def read_state():
